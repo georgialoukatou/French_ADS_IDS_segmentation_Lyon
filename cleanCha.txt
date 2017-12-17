@@ -1,0 +1,7 @@
+
+for j in *.cha; do 
+	cp header.txt $j.txt
+	tr -d "*" < $j |grep -v "^@" | grep -v "^%" | tr -d ":" | sed 's/\([0-9]*_\)/_\1/g' | tr "_" "\t" | tr -s " " >> $j.txt 
+	tail -n +2 < $j.txt | awk '{print $1}' | sort | uniq > $j.ppnt
+
+done
