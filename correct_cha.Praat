@@ -55,6 +55,7 @@ print 'nrows'
 		plus Sound 't$'
 		View & Edit
 		editor TextGrid 't$'
+		Add interval tier... 3 addressee
 			pause please correct all intervals
 		endeditor
 
