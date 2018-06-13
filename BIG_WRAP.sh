@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#Written by Georgia Loukatou 11/2017 georgialoukatou@gmail.com
+
 #- passing some parameters if working on oberon
 #$-S /bin/bash        # the shell used
 #$-N big_wrap  # gives the name of the job
